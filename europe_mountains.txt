@@ -1,0 +1,20 @@
+ID,COUNTRY,MOUNTAIN,ELEV,LAT,LON
+1,Albania,Mount Korab,2764,41.791111,20.547778
+2,Andorra,Coma Pedrosa,2942,42.590556,1.444781
+3,Austria,Grossglockner,3798,47.074867,12.695250
+4,Belgium,Signal de Botrange,694,50.501667,6.092778
+5,Czech Republic,Sněžka,1603,50.736111,15.740278
+6,Estonia,Suur Munamägi,318,57.714444,27.059167
+7,Finland,Halti,1324,69.322778, 21.278889	
+8,France-Italy,Mont Blanc-Monte Bianco,4809,45.832778,6.865	
+9,Germany,Zugspitze,2962,47.421111,10.985278
+10,Greece,Mount Olympus,2917,40.085556,22.358611	
+11,Liechtenstein,Vorder Grauspitz,2599,47.052778,9.581944	
+12,Norway,Galdhøpiggen,2469,61.636667,8.315
+13,Poland,Rysy,2499,49.179444,20.088056
+14,Portugal,Mount Pico,2351,38.468889,-28.398889
+15,Slovenia,Triglav,2864,46.378333,13.83666
+16,Sweden,Kebnekaise,2104,67.9, 18.51666
+17,Switzerland,Monte Rosa,4634,45.936833,7.86705
+18,United Kingdom,Ben Nevis,1345,56.79685,-5.003508
+19,Slovakia,Gerlachovský štít,2655,49.164,20.134

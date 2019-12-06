@@ -1,0 +1,11 @@
+NUM,NAME,REGION,ELEV,LAT,LON
+1,Gerlachovský štít, Prešovský kraj,2655,49.164,20.134
+2,Lomnický štít, Prešovský kraj,2634,49.195,20.213
+3,Ľadový štít, Prešovský kraj,2627,49.198,20.183
+4,Pyšný štít, Prešovský kraj,2621,49.197,20.209
+5,Zadný Gerlach, Prešovský kraj,2616,49.167,20.131
+6,Lavínový štít, Prešovský kraj,2606,49.17,20.13
+7,Malý Ľadový štít, Prešovský kraj,2603,49.196,20.183
+8,Kotlový štít, Prešovský kraj,2601,49.162,20.137
+9,Malý Pyšný štít, Prešovský kraj,2590,49.199,20.207
+10,Kežmarský štít, Prešovský kraj,2556,49.199,20.22

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00edf0f8d2f9485d82b8ed2554f655cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_00edf0f8d2f9485d82b8ed2554f655cb" ></div>
+        
+</body>
+<script>    
+    
+            var map_00edf0f8d2f9485d82b8ed2554f655cb = L.map(
+                "map_00edf0f8d2f9485d82b8ed2554f655cb",
+                {
+                    center: [49.1, 20.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_00edf0f8d2f9485d82b8ed2554f655cb);
+
+            
+
+        
+    
+            var tile_layer_8d628fd9d349471cbafd8f8f9b5fa2c4 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00edf0f8d2f9485d82b8ed2554f655cb);
+        
+    
+            var feature_group_cf9208524ed7406d92bf4b45e4554e2c = L.featureGroup(
+                {}
+            ).addTo(map_00edf0f8d2f9485d82b8ed2554f655cb);
+        
+    
+            var circle_marker_f6cafa89d0b04eb9937987794ec869ef = L.circleMarker(
+                [49.163999999999994, 20.134],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_330760667971470b949971bd195fbae9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9e7b9664b8648699439324d82a1bbed = $(`<div id="html_e9e7b9664b8648699439324d82a1bbed" style="width: 100.0%; height: 100.0%;">Gerlachovský štít 2655m</div>`)[0];
+            popup_330760667971470b949971bd195fbae9.setContent(html_e9e7b9664b8648699439324d82a1bbed);
+        
+
+        circle_marker_f6cafa89d0b04eb9937987794ec869ef.bindPopup(popup_330760667971470b949971bd195fbae9)
+        ;
+
+        
+    
+    
+            var circle_marker_01a6846da9d34971b80bf11dae331cd2 = L.circleMarker(
+                [49.195, 20.213],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_7be3b9921b044fae8558e96795271dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60035167b824c689650a15ff81b329d = $(`<div id="html_b60035167b824c689650a15ff81b329d" style="width: 100.0%; height: 100.0%;">Lomnický štít 2634m</div>`)[0];
+            popup_7be3b9921b044fae8558e96795271dad.setContent(html_b60035167b824c689650a15ff81b329d);
+        
+
+        circle_marker_01a6846da9d34971b80bf11dae331cd2.bindPopup(popup_7be3b9921b044fae8558e96795271dad)
+        ;
+
+        
+    
+    
+            var circle_marker_6236a5432c44480dbd7148b0c986be3f = L.circleMarker(
+                [49.198, 20.183],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_b78d10928d534d498f90278affeea4cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3d1717100bb466f9267c199f7c00f43 = $(`<div id="html_f3d1717100bb466f9267c199f7c00f43" style="width: 100.0%; height: 100.0%;">Ľadový štít 2627m</div>`)[0];
+            popup_b78d10928d534d498f90278affeea4cc.setContent(html_f3d1717100bb466f9267c199f7c00f43);
+        
+
+        circle_marker_6236a5432c44480dbd7148b0c986be3f.bindPopup(popup_b78d10928d534d498f90278affeea4cc)
+        ;
+
+        
+    
+    
+            var circle_marker_ac5d054e4dda4237984f251470f4648a = L.circleMarker(
+                [49.196999999999996, 20.209],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_c492865a9bf44e31be7b555d4dae59a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6eea53246f145b59d2e52b2cd46bf2b = $(`<div id="html_f6eea53246f145b59d2e52b2cd46bf2b" style="width: 100.0%; height: 100.0%;">Pyšný štít 2621m</div>`)[0];
+            popup_c492865a9bf44e31be7b555d4dae59a7.setContent(html_f6eea53246f145b59d2e52b2cd46bf2b);
+        
+
+        circle_marker_ac5d054e4dda4237984f251470f4648a.bindPopup(popup_c492865a9bf44e31be7b555d4dae59a7)
+        ;
+
+        
+    
+    
+            var circle_marker_822daa2423a54f3ba96aa80bb148c859 = L.circleMarker(
+                [49.167, 20.131],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_83fdb55739014c31bf24dc8a63648b6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2942089e13641edb50f3c7ff6849cf8 = $(`<div id="html_d2942089e13641edb50f3c7ff6849cf8" style="width: 100.0%; height: 100.0%;">Zadný Gerlach 2616m</div>`)[0];
+            popup_83fdb55739014c31bf24dc8a63648b6a.setContent(html_d2942089e13641edb50f3c7ff6849cf8);
+        
+
+        circle_marker_822daa2423a54f3ba96aa80bb148c859.bindPopup(popup_83fdb55739014c31bf24dc8a63648b6a)
+        ;
+
+        
+    
+    
+            var circle_marker_8d2a5452992e4aa4a25938efe3834758 = L.circleMarker(
+                [49.17, 20.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_d70b3f1ceb5843089021497abadd16db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3457f09175e54ad8be8080c64dc71b71 = $(`<div id="html_3457f09175e54ad8be8080c64dc71b71" style="width: 100.0%; height: 100.0%;">Lavínový štít 2606m</div>`)[0];
+            popup_d70b3f1ceb5843089021497abadd16db.setContent(html_3457f09175e54ad8be8080c64dc71b71);
+        
+
+        circle_marker_8d2a5452992e4aa4a25938efe3834758.bindPopup(popup_d70b3f1ceb5843089021497abadd16db)
+        ;
+
+        
+    
+    
+            var circle_marker_78dcc44e2bb745268f2ae57886eb5e02 = L.circleMarker(
+                [49.196000000000005, 20.183],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_0f8bf85c72ed4378aeec7add72529066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a378ad52c7774ba98e81fb82e70d7999 = $(`<div id="html_a378ad52c7774ba98e81fb82e70d7999" style="width: 100.0%; height: 100.0%;">Malý Ľadový štít 2603m</div>`)[0];
+            popup_0f8bf85c72ed4378aeec7add72529066.setContent(html_a378ad52c7774ba98e81fb82e70d7999);
+        
+
+        circle_marker_78dcc44e2bb745268f2ae57886eb5e02.bindPopup(popup_0f8bf85c72ed4378aeec7add72529066)
+        ;
+
+        
+    
+    
+            var circle_marker_74f0af065be441d7964373b369016e36 = L.circleMarker(
+                [49.162, 20.137],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_f80c61cb04944430bee452731c46c527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa4b6befe4ef48b19024d061239ce79b = $(`<div id="html_aa4b6befe4ef48b19024d061239ce79b" style="width: 100.0%; height: 100.0%;">Kotlový štít 2601m</div>`)[0];
+            popup_f80c61cb04944430bee452731c46c527.setContent(html_aa4b6befe4ef48b19024d061239ce79b);
+        
+
+        circle_marker_74f0af065be441d7964373b369016e36.bindPopup(popup_f80c61cb04944430bee452731c46c527)
+        ;
+
+        
+    
+    
+            var circle_marker_35895d7e6c7b456bac7d54f1458775e8 = L.circleMarker(
+                [49.199, 20.207],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_7974f65d19784052a2f6249374c32dab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89e77917a0a54b3bb10909315bde469e = $(`<div id="html_89e77917a0a54b3bb10909315bde469e" style="width: 100.0%; height: 100.0%;">Malý Pyšný štít 2590m</div>`)[0];
+            popup_7974f65d19784052a2f6249374c32dab.setContent(html_89e77917a0a54b3bb10909315bde469e);
+        
+
+        circle_marker_35895d7e6c7b456bac7d54f1458775e8.bindPopup(popup_7974f65d19784052a2f6249374c32dab)
+        ;
+
+        
+    
+    
+            var circle_marker_24a83e0b7d3e4387bb803f9225c1d00b = L.circleMarker(
+                [49.199, 20.22],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_cf9208524ed7406d92bf4b45e4554e2c);
+        
+    
+        var popup_21354b327b2f40f5a765d1651f21c8b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd7ddffc2984762a17663c8a2b9ab09 = $(`<div id="html_2cd7ddffc2984762a17663c8a2b9ab09" style="width: 100.0%; height: 100.0%;">Kežmarský štít 2556m</div>`)[0];
+            popup_21354b327b2f40f5a765d1651f21c8b2.setContent(html_2cd7ddffc2984762a17663c8a2b9ab09);
+        
+
+        circle_marker_24a83e0b7d3e4387bb803f9225c1d00b.bindPopup(popup_21354b327b2f40f5a765d1651f21c8b2)
+        ;
+
+        
+    
+    
+            var feature_group_0ffbc46654dc4bb7b247e1d969412cae = L.featureGroup(
+                {}
+            ).addTo(map_00edf0f8d2f9485d82b8ed2554f655cb);
+        
+    
+            var circle_marker_aa8ee80348ea4c1e8b9ad010531f8a6e = L.circleMarker(
+                [41.791111, 20.547778],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_e4efb4ac033b4d36ab90135b7425ca67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9c0c465865841e7813a436d587cbd8f = $(`<div id="html_e9c0c465865841e7813a436d587cbd8f" style="width: 100.0%; height: 100.0%;">Mount Korab 2764m</div>`)[0];
+            popup_e4efb4ac033b4d36ab90135b7425ca67.setContent(html_e9c0c465865841e7813a436d587cbd8f);
+        
+
+        circle_marker_aa8ee80348ea4c1e8b9ad010531f8a6e.bindPopup(popup_e4efb4ac033b4d36ab90135b7425ca67)
+        ;
+
+        
+    
+    
+            var circle_marker_0d7e4a6c6f37431cb7815766f21bb331 = L.circleMarker(
+                [42.590556, 1.4447809999999999],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_bf07f2e6988e4e45bb5a84e51ce2e25f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78f3b1d0bb724555b2618f5eb2bcc97c = $(`<div id="html_78f3b1d0bb724555b2618f5eb2bcc97c" style="width: 100.0%; height: 100.0%;">Coma Pedrosa 2942m</div>`)[0];
+            popup_bf07f2e6988e4e45bb5a84e51ce2e25f.setContent(html_78f3b1d0bb724555b2618f5eb2bcc97c);
+        
+
+        circle_marker_0d7e4a6c6f37431cb7815766f21bb331.bindPopup(popup_bf07f2e6988e4e45bb5a84e51ce2e25f)
+        ;
+
+        
+    
+    
+            var circle_marker_d5554446540b4bd1b893376216a77b65 = L.circleMarker(
+                [47.074867, 12.69525],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_4545496143894132a23d235034a0af98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c152e6cf4f45dfbff078249aa27253 = $(`<div id="html_03c152e6cf4f45dfbff078249aa27253" style="width: 100.0%; height: 100.0%;">Grossglockner 3798m</div>`)[0];
+            popup_4545496143894132a23d235034a0af98.setContent(html_03c152e6cf4f45dfbff078249aa27253);
+        
+
+        circle_marker_d5554446540b4bd1b893376216a77b65.bindPopup(popup_4545496143894132a23d235034a0af98)
+        ;
+
+        
+    
+    
+            var circle_marker_f51f07df71934d5bb3f2752acf62e334 = L.circleMarker(
+                [50.501667, 6.092778],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_1786a31670a148d88fccbf74219e3bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70f2bcde768e4d67b9d963316c223cb6 = $(`<div id="html_70f2bcde768e4d67b9d963316c223cb6" style="width: 100.0%; height: 100.0%;">Signal de Botrange 694m</div>`)[0];
+            popup_1786a31670a148d88fccbf74219e3bf5.setContent(html_70f2bcde768e4d67b9d963316c223cb6);
+        
+
+        circle_marker_f51f07df71934d5bb3f2752acf62e334.bindPopup(popup_1786a31670a148d88fccbf74219e3bf5)
+        ;
+
+        
+    
+    
+            var circle_marker_828e360a8a9a4fe59916b23f065779e3 = L.circleMarker(
+                [50.736111, 15.740278],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_f0975c91b9824fce9f90ead6b904d5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60157346d10349b9ab539aa8caeb3caf = $(`<div id="html_60157346d10349b9ab539aa8caeb3caf" style="width: 100.0%; height: 100.0%;">Sněžka 1603m</div>`)[0];
+            popup_f0975c91b9824fce9f90ead6b904d5f7.setContent(html_60157346d10349b9ab539aa8caeb3caf);
+        
+
+        circle_marker_828e360a8a9a4fe59916b23f065779e3.bindPopup(popup_f0975c91b9824fce9f90ead6b904d5f7)
+        ;
+
+        
+    
+    
+            var circle_marker_30282a5d73384509bb61fa06426192fc = L.circleMarker(
+                [57.71444399999999, 27.059167],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_eedccc045a724762b294e276bfb8af45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c798fae3ed2b428f882eefbb03821aa8 = $(`<div id="html_c798fae3ed2b428f882eefbb03821aa8" style="width: 100.0%; height: 100.0%;">Suur Munamägi 318m</div>`)[0];
+            popup_eedccc045a724762b294e276bfb8af45.setContent(html_c798fae3ed2b428f882eefbb03821aa8);
+        
+
+        circle_marker_30282a5d73384509bb61fa06426192fc.bindPopup(popup_eedccc045a724762b294e276bfb8af45)
+        ;
+
+        
+    
+    
+            var circle_marker_452139316832416182033adb6d7a9eb2 = L.circleMarker(
+                [69.322778, 21.278889000000003],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_83e201a0d7cc41ba8685bc4628aba314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_615e5cf792ee4e50bce25c6d4af697ea = $(`<div id="html_615e5cf792ee4e50bce25c6d4af697ea" style="width: 100.0%; height: 100.0%;">Halti 1324m</div>`)[0];
+            popup_83e201a0d7cc41ba8685bc4628aba314.setContent(html_615e5cf792ee4e50bce25c6d4af697ea);
+        
+
+        circle_marker_452139316832416182033adb6d7a9eb2.bindPopup(popup_83e201a0d7cc41ba8685bc4628aba314)
+        ;
+
+        
+    
+    
+            var circle_marker_f18fde4c59d748869c61c2be1cb321af = L.circleMarker(
+                [45.832778000000005, 6.865],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_06b71b2ab86541848fbabe0e3a2beac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61916300a243407fbd25426b1c8424b8 = $(`<div id="html_61916300a243407fbd25426b1c8424b8" style="width: 100.0%; height: 100.0%;">Mont Blanc-Monte Bianco 4809m</div>`)[0];
+            popup_06b71b2ab86541848fbabe0e3a2beac5.setContent(html_61916300a243407fbd25426b1c8424b8);
+        
+
+        circle_marker_f18fde4c59d748869c61c2be1cb321af.bindPopup(popup_06b71b2ab86541848fbabe0e3a2beac5)
+        ;
+
+        
+    
+    
+            var circle_marker_55512d39137e4aa5a468acf4ea8a8b2c = L.circleMarker(
+                [47.421110999999996, 10.985278],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_d4a938ef56d64ba1bd24eb60e764d1ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b04d1f10f06458ca60325aeccd6e44e = $(`<div id="html_5b04d1f10f06458ca60325aeccd6e44e" style="width: 100.0%; height: 100.0%;">Zugspitze 2962m</div>`)[0];
+            popup_d4a938ef56d64ba1bd24eb60e764d1ab.setContent(html_5b04d1f10f06458ca60325aeccd6e44e);
+        
+
+        circle_marker_55512d39137e4aa5a468acf4ea8a8b2c.bindPopup(popup_d4a938ef56d64ba1bd24eb60e764d1ab)
+        ;
+
+        
+    
+    
+            var circle_marker_17c044852e98417c91b555df22df31c8 = L.circleMarker(
+                [40.085556, 22.358611],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_e1441a4406f1489b85038ead1f3aeb06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c6bea9e372a4c15b168796e0e166c5b = $(`<div id="html_1c6bea9e372a4c15b168796e0e166c5b" style="width: 100.0%; height: 100.0%;">Mount Olympus 2917m</div>`)[0];
+            popup_e1441a4406f1489b85038ead1f3aeb06.setContent(html_1c6bea9e372a4c15b168796e0e166c5b);
+        
+
+        circle_marker_17c044852e98417c91b555df22df31c8.bindPopup(popup_e1441a4406f1489b85038ead1f3aeb06)
+        ;
+
+        
+    
+    
+            var circle_marker_75a0f6027d104a3890c9b6bfb2899c0a = L.circleMarker(
+                [47.052778, 9.581944],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_32d032e476d1466fa0f9c326d3b670be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9edcdc10955b49d3a39fb0e94f226954 = $(`<div id="html_9edcdc10955b49d3a39fb0e94f226954" style="width: 100.0%; height: 100.0%;">Vorder Grauspitz 2599m</div>`)[0];
+            popup_32d032e476d1466fa0f9c326d3b670be.setContent(html_9edcdc10955b49d3a39fb0e94f226954);
+        
+
+        circle_marker_75a0f6027d104a3890c9b6bfb2899c0a.bindPopup(popup_32d032e476d1466fa0f9c326d3b670be)
+        ;
+
+        
+    
+    
+            var circle_marker_5050c7d01206456cbd1c054c1d50bfa6 = L.circleMarker(
+                [61.636667, 8.315],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_bfeb65adce5a4dc18727042b4c8a5c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e5c322d7e1d4999bb894d8fdafd19e2 = $(`<div id="html_6e5c322d7e1d4999bb894d8fdafd19e2" style="width: 100.0%; height: 100.0%;">Galdhøpiggen 2469m</div>`)[0];
+            popup_bfeb65adce5a4dc18727042b4c8a5c99.setContent(html_6e5c322d7e1d4999bb894d8fdafd19e2);
+        
+
+        circle_marker_5050c7d01206456cbd1c054c1d50bfa6.bindPopup(popup_bfeb65adce5a4dc18727042b4c8a5c99)
+        ;
+
+        
+    
+    
+            var circle_marker_eb58ff213763440fbb65fdd603bb1146 = L.circleMarker(
+                [49.179444000000004, 20.088055999999998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_6785d3db73d44afaae9d7e5db238bf70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed8fb88b6a6432a8638a7fc7a5f8d5d = $(`<div id="html_fed8fb88b6a6432a8638a7fc7a5f8d5d" style="width: 100.0%; height: 100.0%;">Rysy 2499m</div>`)[0];
+            popup_6785d3db73d44afaae9d7e5db238bf70.setContent(html_fed8fb88b6a6432a8638a7fc7a5f8d5d);
+        
+
+        circle_marker_eb58ff213763440fbb65fdd603bb1146.bindPopup(popup_6785d3db73d44afaae9d7e5db238bf70)
+        ;
+
+        
+    
+    
+            var circle_marker_30a8f469b6cd44eeb1e6ca9c849f5dcb = L.circleMarker(
+                [38.468889000000004, -28.398889],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_9ad2a3cf70e24e849fbf4785d896e085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_075d113c393040c7a92b6cc6d3bc0baa = $(`<div id="html_075d113c393040c7a92b6cc6d3bc0baa" style="width: 100.0%; height: 100.0%;">Mount Pico 2351m</div>`)[0];
+            popup_9ad2a3cf70e24e849fbf4785d896e085.setContent(html_075d113c393040c7a92b6cc6d3bc0baa);
+        
+
+        circle_marker_30a8f469b6cd44eeb1e6ca9c849f5dcb.bindPopup(popup_9ad2a3cf70e24e849fbf4785d896e085)
+        ;
+
+        
+    
+    
+            var circle_marker_206d6aaa44584e0ca4108e4dda331bb7 = L.circleMarker(
+                [46.378333000000005, 13.83666],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_782d1617de1d420db283f7bfc1366185 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a45204e7c2c4b9eba9a60d5f1707b52 = $(`<div id="html_3a45204e7c2c4b9eba9a60d5f1707b52" style="width: 100.0%; height: 100.0%;">Triglav 2864m</div>`)[0];
+            popup_782d1617de1d420db283f7bfc1366185.setContent(html_3a45204e7c2c4b9eba9a60d5f1707b52);
+        
+
+        circle_marker_206d6aaa44584e0ca4108e4dda331bb7.bindPopup(popup_782d1617de1d420db283f7bfc1366185)
+        ;
+
+        
+    
+    
+            var circle_marker_5416e1ac46b74edfa3ea258c9513c0f5 = L.circleMarker(
+                [67.9, 18.51666],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_9489dc89392b4de6bae92cb081ce2735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2acd307fa1046219ea8db0d9aa60e9e = $(`<div id="html_b2acd307fa1046219ea8db0d9aa60e9e" style="width: 100.0%; height: 100.0%;">Kebnekaise 2104m</div>`)[0];
+            popup_9489dc89392b4de6bae92cb081ce2735.setContent(html_b2acd307fa1046219ea8db0d9aa60e9e);
+        
+
+        circle_marker_5416e1ac46b74edfa3ea258c9513c0f5.bindPopup(popup_9489dc89392b4de6bae92cb081ce2735)
+        ;
+
+        
+    
+    
+            var circle_marker_19e6bf04233241e1b23030fd2f9d81bc = L.circleMarker(
+                [45.936833, 7.86705],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_39ec1667720e40658a38f0e3006e17b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e00d28a2e0734f5aaec67614bbffc295 = $(`<div id="html_e00d28a2e0734f5aaec67614bbffc295" style="width: 100.0%; height: 100.0%;">Monte Rosa 4634m</div>`)[0];
+            popup_39ec1667720e40658a38f0e3006e17b9.setContent(html_e00d28a2e0734f5aaec67614bbffc295);
+        
+
+        circle_marker_19e6bf04233241e1b23030fd2f9d81bc.bindPopup(popup_39ec1667720e40658a38f0e3006e17b9)
+        ;
+
+        
+    
+    
+            var circle_marker_8c8df8670b694f36a8fb82114ac7248f = L.circleMarker(
+                [56.79685, -5.003508],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_8e1ed8e7b4aa4930b39188160f9a0534 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bc73d6ca7014455887bf209943d638c = $(`<div id="html_8bc73d6ca7014455887bf209943d638c" style="width: 100.0%; height: 100.0%;">Ben Nevis 1345m</div>`)[0];
+            popup_8e1ed8e7b4aa4930b39188160f9a0534.setContent(html_8bc73d6ca7014455887bf209943d638c);
+        
+
+        circle_marker_8c8df8670b694f36a8fb82114ac7248f.bindPopup(popup_8e1ed8e7b4aa4930b39188160f9a0534)
+        ;
+
+        
+    
+    
+            var circle_marker_f10eab997f934957a8acbf93ef9cedc0 = L.circleMarker(
+                [49.163999999999994, 20.134],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_0ffbc46654dc4bb7b247e1d969412cae);
+        
+    
+        var popup_f3efabed2579486ca39b340159f2a790 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8ab60636ca8428e8e64c384da180b55 = $(`<div id="html_e8ab60636ca8428e8e64c384da180b55" style="width: 100.0%; height: 100.0%;">Gerlachovský štít 2655m</div>`)[0];
+            popup_f3efabed2579486ca39b340159f2a790.setContent(html_e8ab60636ca8428e8e64c384da180b55);
+        
+
+        circle_marker_f10eab997f934957a8acbf93ef9cedc0.bindPopup(popup_f3efabed2579486ca39b340159f2a790)
+        ;
+
+        
+    
+    
+            var layer_control_46b33dc090ca42388a4f30ffb76e553a = {
+                base_layers : {
+                    "stamenterrain" : tile_layer_8d628fd9d349471cbafd8f8f9b5fa2c4,
+                },
+                overlays :  {
+                    "Highest point in Slovakia" : feature_group_cf9208524ed7406d92bf4b45e4554e2c,
+                    "Highest point in Europe" : feature_group_0ffbc46654dc4bb7b247e1d969412cae,
+                },
+            };
+            L.control.layers(
+                layer_control_46b33dc090ca42388a4f30ffb76e553a.base_layers,
+                layer_control_46b33dc090ca42388a4f30ffb76e553a.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_00edf0f8d2f9485d82b8ed2554f655cb);
+        
+</script>
