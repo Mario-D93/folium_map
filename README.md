@@ -1,4 +1,4 @@
-# FOLIUM - MAP 
+# Interactive-Mountain-Map-Generator 
 
 ## ABOUT 
 
